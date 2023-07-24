@@ -1,0 +1,21 @@
+---
+import HomePage from "../components/HomePage";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Stack Review</title>
+  </head>
+  <body>
+      <HomePage client:load />
+  </body>
+  <style>
+    :root {
+      --primary: blue;
+    }
+  </style>
+</html>

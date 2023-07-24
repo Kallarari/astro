@@ -1,0 +1,38 @@
+{
+  "name": "violet-visual",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^0.2.2",
+    "@astrojs/preact": "^2.2.1",
+    "@astrojs/react": "^2.2.1",
+    "@astrojs/solid-js": "^2.2.0",
+    "@astrojs/svelte": "^3.1.0",
+    "@astrojs/vue": "^2.2.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.1",
+    "@types/alpinejs": "^3.7.2",
+    "@types/react-dom": "^18.2.7",
+    "alpinejs": "^3.12.3",
+    "astro": "^2.8.5",
+    "preact": "^10.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solid-js": "^1.7.8",
+    "styled-components": "^6.0.4",
+    "svelte": "^4.1.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.1",
+    "@types/react": "^18.2.15"
+  }
+}

@@ -1,0 +1,33 @@
+---
+import Counter from "../components/examples/ReactComponent";
+import CounterVue from "../components/examples/VueComponent/index.vue";
+import CounterSolid from "../components/examples/SolidComponent";
+import CounterPreact from "../components/examples/PreactComponent";
+import CounterAlpine from "../components/examples/AlpineComponent/index.astro";
+import CounterSvelte from "../components/examples/SvelteComponent/index.svelte";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <h1>Astro</h1>
+    <h2>Alpine:</h2>
+    <CounterAlpine />
+    <h2>Preact:</h2>
+    <CounterPreact client:load />
+    <h2>Vue:</h2>
+    <CounterVue client:load />
+    <h2>Svelte:</h2>
+    <CounterSvelte client:load />
+    <h2>Solid:</h2>
+    <CounterSolid client:load />
+    <h2>React:</h2>
+    <Counter client:load />
+  </body>
+</html>
